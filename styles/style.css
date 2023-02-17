@@ -107,3 +107,85 @@ ul li {
     flex-direction: column;
 
 }
+/* servise-container */
+.servise-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servise-info p{
+    margin: 30px 0;
+}
+.servise-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.servise-container{
+    display: flex;
+    gap: 20px;
+}
+.servise{
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0.1px black;
+}
+.servise img{
+    margin-top: 30px;
+}
+.servise h3{
+    margin: 10px 0;
+}
+.My-Resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.My-Resume h1{
+    margin-bottom: 50px;
+}
+.Resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Experience-content {
+    margin-bottom: 20px;
+}
+.Experience-content h6{
+    margin: 10px 0 ;
+
+
+}
+.Experience-content h4{
+   margin-top: 30px;
+
+}
+.My-Resume button{
+    margin: 50px 0;
+}
+footer{
+    background-color: #FFF8F3;
+    padding: 150px 0;
+}
+.footer-container{
+    display: flex;
+    gap: 60px;
+}
+.footer-item{
+    width: 50%;
+}
+.footer-item input{
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+}
+.footer-item textarea{
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+}
+.footer-item button{
+    margin-top: 20px;
+}
